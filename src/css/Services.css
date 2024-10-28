@@ -1,0 +1,68 @@
+#Services   {
+    display:flex;
+    flex-direction: column;
+    padding: 16px;
+    align-items: start;
+}
+
+.bloc-services    {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    flex-wrap: wrap;
+}
+
+.article-service  {
+    padding: 16px;
+}
+
+.article-service p {
+    color: rgb(161, 161, 161);
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+h3  {
+    font-family: "Hind", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.article-service:hover  {
+    padding: 16px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.068);
+    transition-duration: 300ms;
+    animation-name: expand;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes expand   {
+    0%  {
+        transform: scale(1);
+    }
+    100%    {
+        transform: scale(1.03);
+
+    }
+}
+
+@media screen and (min-width:700px) {
+    .bloc-services    {
+        display: flex;
+        flex-direction: row;
+        padding: 8px;
+        flex-wrap: wrap;
+    }
+    .bloc-services>*    {
+        flex: 1 1 33%;
+    }
+
+    .article-service    {
+        display:flex;
+        flex-direction: column;
+    }
+}

@@ -4,6 +4,7 @@ function Services() {
 	return (
 		<section id="Services">
 			<h2>Services.</h2>
+			<div className="bloc-services">
 			<Service
 				mainTitle="Wedding reports"
 				description="I can organize a shoot of your wedding for 1 000 0000 € ! It's a gift, it's not expensive"
@@ -18,8 +19,9 @@ function Services() {
 			/>
 			<Service
 				mainTitle="Corporate photo report session"
-				description="Corporate photo shoots are like a game of hide-and-seek, but instead of kids, you’re trying to find the one employee who actually looks happy to be there. Just when you finally capture that candid moment, someone sneezes, and suddenly, the whole team looks like they’re auditioning for a sitcom! It’s all about finding the right balance between professionalism and the awkwardness of realizing nobody knows how to pose"
+				description="Corporate photo shoots are like a game of hide-and-seek, but instead of kids, you’re trying to find the one employee who actually looks happy to be there. Just when you finally capture that candid moment, someone sneezes, and suddenly, the whole team looks like they’re auditioning for a sitcom! It’s all about finding the right balance between professionalism and the awkwardness of realizing nobody knows how to pose."
 			/>
+			</div>
 		</section>
 	);
 }
