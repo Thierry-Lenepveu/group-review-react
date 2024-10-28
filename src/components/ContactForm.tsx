@@ -1,4 +1,5 @@
 interface ContactFormProps {
+
     isHidden: boolean;
     setHidden: (hidden: boolean) => void;
 }
