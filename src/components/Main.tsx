@@ -7,7 +7,9 @@ function Main() {
     return (
         <>
             <h1>Hello 👋<br />
-            I am Thierry - travel lover who like to share wonderful pictures of his journey.
+            I am Thierry - travel lover <br />
+            who like to share <br />
+            wonderful pictures of his journey.
             </h1>
             <Work />
             <Services />

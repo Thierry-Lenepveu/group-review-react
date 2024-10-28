@@ -10,7 +10,7 @@ function Services() {
 			/>
 			<Service
 				mainTitle="Portrait photo sessions"
-				description="If tou want to be beautiful, I can sublimate your face with Photoshop. Maybe, it can be difficult to do something with your face, in this case, i will adress you to a cosmetic surgeon."
+				description="If you want to be beautiful, I can sublimate your face with Photoshop. Maybe, it can be difficult to do something with your face, in this case, i will adress you to a cosmetic surgeon."
 			/>
 			<Service
 				mainTitle="Animals shooting session"
