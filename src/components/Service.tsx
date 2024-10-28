@@ -8,7 +8,7 @@ interface ServiceProps {
 function Service({ mainTitle, description }: ServiceProps) {
 	const [isHidden, setHidden] = useState(false);
 	return (
-		<article>
+		<article className="article-service">
 			<h3 onClick={() => {setHidden(!isHidden)}}>{mainTitle}</h3>
 			<p className={isHidden ? "hidden" : ""}>{description}</p>
 		</article>
