@@ -1,4 +1,4 @@
-import "./App.css";
+import "./css/App.css";
 import "./css/MenuBurger.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
