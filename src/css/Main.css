@@ -1,23 +1,57 @@
-h1  {
-    padding: 8px;
-    font-size: 30px;
-    font-family: "Hind", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+h1 {
+	padding: 16px;
+	font-size: 30px;
+	font-family: "Hind", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 40px;
+}
 
-  h2  {
-    font-family: "Hind", sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-  }
-  
-  @media screen and (min-width:700px) {
-    h1  {
-      padding: 8px;
-      font-size: 60px;
-      font-family: "Hind", sans-serif;
-      font-weight: 400;
-      font-style: normal;
-    }
-  }
+h2 {
+	font-family: "Hind", sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+@keyframes wave {
+	0% {
+		transform: rotate(0deg);
+	}
+	10% {
+		transform: rotate(14deg);
+	}
+	20% {
+		transform: rotate(-8deg);
+	}
+	30% {
+		transform: rotate(14deg);
+	}
+	40% {
+		transform: rotate(-4deg);
+	}
+	50% {
+		transform: rotate(10deg);
+	}
+	60% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(0deg);
+	}
+}
+.waving-hand {
+	display: inline-block;
+	transform-origin: 70% 70%;
+	animation: wave 2.5s infinite;
+}
+
+@media screen and (min-width: 768px) {
+	h1 {
+		padding: 16px;
+		font-size: 60px;
+		font-family: "Hind", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		line-height: 70px;
+	}
+}

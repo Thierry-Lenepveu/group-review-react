@@ -8,9 +8,13 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	padding: 8px;
+    padding-top: 40px;
+    padding-left: 25px;
 	text-size-adjust: 100%;
 }
-
+header>div {
+    font-weight: 600;
+}
 nav button {
     display: block;
     background: none;
@@ -61,7 +65,7 @@ nav ul {
   nav a {
     text-decoration: none;
     color: #333;
-    font-size: 1.2rem;
+    font-size: 16px;
     transition: color 0.2s ease;
   }
   
