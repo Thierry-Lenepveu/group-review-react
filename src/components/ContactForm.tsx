@@ -25,7 +25,7 @@ function ContactForm({isHidden, setHidden}:ContactFormProps)  {
                     </li>
                 </ul>
                 <button onClick={() => setHidden(true)}>
-                    Soumettre
+                    Submit
                 </button>
             </form>
         </>
