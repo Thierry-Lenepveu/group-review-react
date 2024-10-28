@@ -1,17 +1,17 @@
-import './App.css'
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
-
+import "./App.css";
+import "./css/MenuBurger.css";
+import Footer from "./components/Footer";
+import Header from "./components/Header";
+import Main from "./components/Main";
 
 function App() {
-  return (
-    <>
-      <Header />
-      <Main />
-      <Footer />
-    </>
-  )
+	return (
+		<>
+			<Header />
+			<Main />
+			<Footer />
+		</>
+	);
 }
 
-export default App
+export default App;
