@@ -4,7 +4,7 @@ function Work() {
 	return (
 		//Nous avons intégrer des composants articles grâces aux props définis.
 		<section id="Work">
-			<h3>Work.</h3>
+			<h2>Work.</h2>
 			<Article
 				imgSrc="./src/assets/_MG_1753.jpg"
 				mainTitle="Brooklyn Bridge"

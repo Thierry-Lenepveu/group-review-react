@@ -6,7 +6,7 @@ interface ServiceProps {
 function Service({ mainTitle, description }: ServiceProps) {
 	return (
 		<>
-			<h2>{mainTitle}</h2>
+			<h3>{mainTitle}</h3>
 			<p>{description}</p>
 		</>
 	);

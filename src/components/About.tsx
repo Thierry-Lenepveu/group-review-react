@@ -1,7 +1,7 @@
 function About() {
 	return (
 		<section id="About">
-			<h3>About.</h3>
+			<h2>About.</h2>
 			<p>
 				Meet Thierry, the photographer who believes every picture tells a
 				story—especially the ones where he accidentally captures his own

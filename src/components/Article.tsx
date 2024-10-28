@@ -10,7 +10,7 @@ function Article({ imgSrc, mainTitle, description }: ArticleProps) {
 	return (
 		<article>
 			<img src={imgSrc} alt="" />
-			<h2>{mainTitle}</h2>
+			<h3>{mainTitle}</h3>
 			<p>{description}</p>
 		</article>
 	);

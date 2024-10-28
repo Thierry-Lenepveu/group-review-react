@@ -3,7 +3,7 @@ import Service from "./Service";
 function Services() {
 	return (
 		<section id="Services">
-			<h3>Services.</h3>
+			<h2>Services.</h2>
 			<Service
 				mainTitle="Wedding reports"
 				description="I can organize a shoot of your wedding for 1 000 0000 € ! It's a gift, it's not expensive"
