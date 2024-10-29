@@ -5,6 +5,9 @@ function Work() {
 		//Nous avons intégrer des composants articles grâces aux props définis.
 		<section id="Work">
 			<h2>Work.</h2>
+			
+			<div id ="bloc-items">
+			
 			<Article
 				imgSrc="./src/assets/_MG_1753.jpg"
 				mainTitle="Brooklyn Bridge"
@@ -25,6 +28,8 @@ function Work() {
 				mainTitle="Empire State Building"
 				description="In Newww Yooooork !"
 			/>
+	      
+		  </div>
 		</section>
 	);
 }

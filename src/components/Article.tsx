@@ -8,7 +8,7 @@ interface ArticleProps {
 
 function Article({ imgSrc, mainTitle, description }: ArticleProps) {
 	return (
-		<article>
+		<article className="items">
 			<img src={imgSrc} alt="" />
 			<h3>{mainTitle}</h3>
 			<p>{description}</p>

@@ -1,14 +1,13 @@
 #Services   {
     display:flex;
     flex-direction: column;
-    padding: 16px;
     align-items: start;
 }
 
 .bloc-services    {
     display: flex;
     flex-direction: column;
-    padding: 8px;
+    padding: 8px ;
     flex-wrap: wrap;
 }
 
@@ -54,7 +53,7 @@ h3  {
     .bloc-services    {
         display: flex;
         flex-direction: row;
-        padding: 8px;
+        padding: 8px 24px;
         flex-wrap: wrap;
     }
     .bloc-services>*    {

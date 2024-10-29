@@ -1,0 +1,55 @@
+
+img{
+    height: 650px;
+    width: 650px;
+    border-radius: 20px;
+    
+
+    
+}
+
+
+#bloc-items{
+   display:flex;
+   flex-direction: row;
+   flex-flow: row wrap;
+   grid-template-rows: 60px;
+   display: flex;
+   justify-content: center;
+   
+}
+
+p {
+    font-family: "Hind", sans-serif; 
+    color: rgb(161, 161, 161);
+}
+
+
+
+.items{
+    padding :25px;
+    border-radius: 20px;
+    
+  
+}
+.items:hover{
+    animation-duration: 2s;
+    animation-name: expand;
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .bloc-items{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+
+    }
+    img{
+        height: 20rem;
+        width: 20rem;
+    }
+
+  }
