@@ -1,0 +1,22 @@
+.footer-section {
+    min-height: 40vh; /* Plus petit que le header par défaut */
+    width: 100%;
+    background: linear-gradient(0deg,  /* Notez le 0deg au lieu de 180deg */
+      #e6f0ff 0%,
+      #e6f0ff 20%,
+      #e8f1ff 40%,
+      #eaf3ff 60%,
+      rgba(234, 243, 255, 0.4) 80%,
+      rgba(234, 243, 255, 0) 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .footer-content {
+    color: #0047b3;
+    font-family: Arial, sans-serif;
+  }

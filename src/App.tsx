@@ -2,6 +2,7 @@ import "./css/App.css";
 import "./css/MenuBurger.css";
 import "./css/Main.css";
 import "./css/Services.css";
+import "./css/Footer.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";

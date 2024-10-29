@@ -11,6 +11,14 @@ header {
 	padding-top: 40px;
 	padding-left: 25px;
 	text-size-adjust: 100%;
+	background: linear-gradient(180deg, 
+        #e6f0ff 0%,
+        #e6f0ff 20%,
+        #e8f1ff 40%,
+        #eaf3ff 60%,
+        rgba(234, 243, 255, 0.4) 80%,
+        rgba(234, 243, 255, 0) 100%
+      );
 }
 header > div {
 	font-weight: 600;
