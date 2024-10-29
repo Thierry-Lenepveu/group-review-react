@@ -6,6 +6,7 @@ import './css/Work.css'
 import "./css/Contact.css"
 import "./css/Footer.css";
 import "./css/About.css";
+import "./css/ContactForm.css";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Main from "./components/Main";

@@ -1,6 +1,5 @@
 #footer {
     min-height: 4vh; /* Plus petit que le header par défaut */
-    width: 100%;
     background: linear-gradient(0deg,  /* Notez le 0deg au lieu de 180deg */
       #e6f0ff 0%,
       #e6f0ff 20%,

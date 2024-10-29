@@ -1,0 +1,38 @@
+form    {
+    background-color: #f9f9f9;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+form ul li {
+    list-style: none;
+    padding : 0;
+}
+
+form textarea {
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    resize: vertical;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    flex: 1;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    color: #555;
+    transition: border-color 0.3s ease;
+    height: 40px; /* Hauteur uniforme pour tous les champs */
+    box-sizing: border-box; /* Assure que la hauteur inclut le padding */
+}
