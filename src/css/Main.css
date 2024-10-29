@@ -5,6 +5,10 @@ h2 {
 	padding: 16px;
 }
 
+p	{
+	text-align: justify;
+}
+
 @keyframes wave {
 	0% {
 		transform: rotate(0deg);
