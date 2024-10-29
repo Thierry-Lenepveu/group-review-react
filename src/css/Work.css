@@ -25,13 +25,11 @@ p {
 }
 
 
-
 .items{
     padding :25px;
     border-radius: 20px;
-    
-  
 }
+
 .items:hover{
     animation-duration: 2s;
     animation-name: expand;
@@ -48,8 +46,10 @@ p {
 
     }
     img{
-        height: 20rem;
-        width: 20rem;
+        height: 300px;
+        width: 300px;
     }
-
+    .items  {
+        max-width: 300px;
+    }
   }

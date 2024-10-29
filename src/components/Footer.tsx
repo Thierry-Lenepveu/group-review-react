@@ -1,6 +1,6 @@
 function Footer()   {
     return <section id= "footer">
-            <p >Made with ❤ by Thierry</p>       
+            <p >Made with &#10084;&#65039; by Thierry</p>       
         </section>
 }
 
