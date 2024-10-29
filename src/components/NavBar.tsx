@@ -30,7 +30,7 @@ function NavBar() {
 							<a href="#About">About</a>
 						</li>
 						<li>
-							<a href="#Contact">Contact</a>
+							<a href="#contact">Contact</a>
 						</li>
 					</ul>
 				</div>
